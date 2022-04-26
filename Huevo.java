@@ -13,9 +13,9 @@ public class Huevo {
     }
 
     public static void main(String[] args) {
-        Huevo huevo = new Huevo("S,M, L, XL");
-        Huevo.Clara clara = huevo.new Clara("Blanca");
-        Huevo.Yema yema = huevo.new Yema("Amarilla");
+        Huevo huevo = new Huevo("Pequeño, mediano, grande");
+        Huevo.Clara clara = huevo.new Clara("Blanco");
+        Huevo.Yema yema = huevo.new Yema("Amarillo");
         System.out.println(huevo.toString());
         System.out.println(clara.toString());
         System.out.println(yema.toString());
